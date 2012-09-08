@@ -1,0 +1,4 @@
+---
+ntp_servers:
+    - 'nist1-chi.ustiming.org'
+    - 'stratum2.ord2.publicntp.net'

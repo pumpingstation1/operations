@@ -1,0 +1,15 @@
+---
+:backends:
+  - yaml
+  - puppet
+
+:hierarchy:
+  - "%{location}"
+  - "%{environment}"
+  - common
+
+:yaml:
+  :datadir: /etc/puppet/hieradata
+
+:puppet:
+  :datasource: data
