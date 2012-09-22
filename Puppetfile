@@ -1,6 +1,7 @@
 forge "http://forge.puppetlabs.com"
 
 mod 'puppetlabs/stdlib'
+
 mod 'ntp',
    :git => 'git://github.com/puppetlabs/puppetlabs-ntp.git'
 
@@ -11,3 +12,6 @@ mod 'apt',
 mod 'hiera-puppet',
    :git => 'git://github.com/puppetlabs/hiera-puppet.git',
    :ref => '1.0.0rc3'
+
+mod 'puppetusers',
+   :git => 'git://github.com/rhysrhaven/puppetusers.git'

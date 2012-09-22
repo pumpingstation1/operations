@@ -4,8 +4,7 @@
   - puppet
 
 :hierarchy:
-  - "%{location}"
-  - "%{environment}"
+  - "%{user}"
   - common
 
 :yaml:
