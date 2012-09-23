@@ -9,4 +9,5 @@ node /^(.+).dev.pumpingstationone.org/ {
 node default {
 	include basenode
 	include global_users
+	include zabbix_agent
 }

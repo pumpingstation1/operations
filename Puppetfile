@@ -15,3 +15,6 @@ mod 'hiera-puppet',
 
 mod 'puppetusers',
    :git => 'git://github.com/rhysrhaven/puppetusers.git'
+
+mod 'puppetzabbixagent',
+   :git => 'git://github.com/rhysrhaven/puppetzabbixagent.git'
